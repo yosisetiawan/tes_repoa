@@ -5,7 +5,6 @@ require('express-group-routes')
 
 const app = express()
 const port = process.env.PORT
-console.log('COBA UPDATE GIT')
 // Import Controller
 const todoController = require('./controller/todoController')
 
